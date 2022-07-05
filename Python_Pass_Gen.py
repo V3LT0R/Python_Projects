@@ -27,6 +27,8 @@ def get_random_password():
 
 
 # output Random # (fjx8y2[A$(y#BS)
+print("!Password's generated! ")
+#
 print("1st ", get_random_password())
 #
 print("2nd ", get_random_password())
