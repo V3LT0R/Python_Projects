@@ -15,7 +15,7 @@ def get_random_password():
     # select 1 special symbol
     password += random.choice(string.punctuation)
 
-    # Generate other characters, Change the range for a longer range.
+    # Generate other characters, Change the "for i in range(10):" for a longer range.
     for i in range(10):
         password += random.choice(random_source)
 
@@ -26,7 +26,13 @@ def get_random_password():
     return password
 
 
-print("First Random Password is ", get_random_password())
 # output Random # (fjx8y2[A$(y#BS)
-print("Second Random Password is ", get_random_password())
-# Output Random # (0Yz="ZBz,sVX|/)
+print("1st ", get_random_password())
+#
+print("2nd ", get_random_password())
+#
+print("3rd ", get_random_password())
+#
+print("4th ", get_random_password())
+#
+print("5th ", get_random_password())
