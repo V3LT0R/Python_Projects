@@ -1,7 +1,8 @@
 import random
 import string
 
-# Simple Python Genarator #
+# Simple Python Password Generator #
+
 
 def get_random_password():
     random_source = string.ascii_letters + string.digits + string.punctuation
