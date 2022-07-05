@@ -1,6 +1,7 @@
 import random
 import string
 
+# Simple Python Genarator #
 
 def get_random_password():
     random_source = string.ascii_letters + string.digits + string.punctuation
@@ -13,7 +14,7 @@ def get_random_password():
     # select 1 special symbol
     password += random.choice(string.punctuation)
 
-    # generate other characters, Change the range for a longer range.
+    # Generate other characters, Change the range for a longer range.
     for i in range(10):
         password += random.choice(random_source)
 
@@ -25,6 +26,6 @@ def get_random_password():
 
 
 print("First Random Password is ", get_random_password())
-# output  qX49}]Ru!(
+# output Random # (fjx8y2[A$(y#BS)
 print("Second Random Password is ", get_random_password())
-# Output  3nI0.V#[T
+# Output Random # (0Yz="ZBz,sVX|/)
